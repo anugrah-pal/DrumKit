@@ -1,41 +1,32 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Arvo"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Drum 🥁 Kit</h1>
 
-<h1>🥁Drum Kit</h1>
+    <div class="set">
+      <button class="w drum">w</button>
+      <button class="a drum">a</button>
+      <button class="s drum">s</button>
+      <button class="d drum">d</button>
+      <button class="j drum">j</button>
+      <button class="k drum">k</button>
+      <button class="l drum">l</button>
+    </div>
 
-<div class="drum-container">
-    <div class="drum" onclick="playSound('kick')">
-        <img src="">
-        kick
-    </div>
-    <div class="drum" onclick="playSound('snare')">
-        <img src="">
-        Snare
-    </div>
-    <div class="drum" onclick="playSound('hihat')">
-        <img src="">
-        Hi-Hat
-    </div>
-    <div class="drum" onclick="playSound('tom')">
-        <img src="">
-        Tom
-    </div>
-    <div class="drum" onclick="playSound('crash')">
-        <img src="">
-        Crash
-    </div>
-</div>
+    <script src="index.js" charset="utf-8"></script>
 
-<audio id="kick"  src="./tr909-kick-drum-241402.mp3"></audio>
-<audio id="snare" src="./snare-112754.mp3"></audio>
-<audio id="hihat" src="./kathetroid-hat-96057.mp3"></audio>
-<audio id="tom"   src="./floor-tom-2-87286.mp3"></audio>
-<audio id="crash" src="./tr707-crash-cymbal-241376.mp3"></audio>
-
-<script src="script.js"></script>
-</body>
+    <footer>
+         <strong>Let the beat be your escape. 🔥</strong>
+    </footer>
+  </body>
 </html>
